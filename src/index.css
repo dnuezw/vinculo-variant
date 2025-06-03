@@ -20,3 +20,8 @@ h1 {
     font-family: var(--primary-font, var(--default-font));
     margin: 0;
 }
+
+p {
+    margin: 0;
+    font-family: var(--secondary-font, var(--default-font));
+}
