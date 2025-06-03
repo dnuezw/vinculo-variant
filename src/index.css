@@ -6,6 +6,11 @@ html {
     --primary-color: #C0C0C0;
     --secondary-color: #6882AA;
     --hover-color: #A890FF;
+    --font-size-s: 12px;
+    --font-size-m: 16px;
+    --font-size-l: 24px;
+    --font-size-xl: 32px;
+    --font-size-xxl: 64px;
 
     width: 100vw;
     height: 100vh;
@@ -13,15 +18,20 @@ html {
 
 body {
     margin: 0;
+    font-size: var(--font-size-m);
+    font-family: var(--secondary-font, var(--default-font));
 }
 
 h1 {
-    font-size: 64px;
+    font-size: var(--font-size-xxl);
     font-family: var(--primary-font, var(--default-font));
     margin: 0;
 }
 
 p {
     margin: 0;
+}
+
+button {
     font-family: var(--secondary-font, var(--default-font));
 }
