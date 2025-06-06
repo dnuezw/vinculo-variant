@@ -13,6 +13,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 8px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo > .icon {
+    width: 96px;
+}
+
+.logo > .text {
+    width: 256px;
+}
+
+.title > .subtitle {
+    color: white;
 }
 
 .presentation > .actions {

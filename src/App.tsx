@@ -1,13 +1,18 @@
 import type { FC } from 'react'
 import './App.css'
 import play from './assets/icons/play.svg'
+import logo from './assets/images/logo.png'
+import logoText from './assets/images/logoText.png'
 
 const App: FC = () => {
   return (
     <main className='presentation'>
       <div className='title'>
-        <h1>The game</h1>
-        <p>Un juego to wapo hecho por el samu</p>
+        <div className='logo'>
+          <img className='icon' src={logo} />
+          <img className='text' src={logoText} />
+        </div>
+        <p className='subtitle'>One bufanda one destiny...</p>
       </div>
       <div className='actions'>
         <button className='trailer'><img src={play} className='playIcon'/>Play trailer</button>
