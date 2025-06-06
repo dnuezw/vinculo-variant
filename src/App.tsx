@@ -3,7 +3,6 @@ import './App.css'
 import play from './assets/icons/play.svg'
 import logo from './assets/images/logo.png'
 import logoText from './assets/images/logoText.png'
-import story from './assets/images/story.jpg'
 
 const App: FC = () => {
   return (
