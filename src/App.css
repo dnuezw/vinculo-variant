@@ -65,3 +65,13 @@
     padding: 8px 16px;
     text-transform: uppercase;
 }
+
+.story {
+    background-image: url('./assets/images/story.jpg');
+    background-position: 50% 20%;
+    color: white;
+}
+
+.story > p {
+    padding: 64px;
+}
