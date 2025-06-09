@@ -12,8 +12,7 @@ html {
     --font-size-xl: 32px;
     --font-size-xxl: 64px;
 
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
 }
 
 body {
@@ -25,6 +24,17 @@ body {
 h1 {
     font-size: var(--font-size-xxl);
     font-family: var(--primary-font, var(--default-font));
+    margin: 0;
+}
+
+h2 {
+    font-family: var(--primary-font);
+    font-size: var(--font-size-xl);
+    margin: 0;
+}
+
+h3 {
+    font-family: var(--primary-font);
     margin: 0;
 }
 

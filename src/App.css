@@ -87,3 +87,34 @@
 .story > p {
     padding: 64px;
 }
+
+.characters {
+    padding: 64px
+}
+
+.characters > .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.characters > .content > .character {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+}
+
+.characters > .content > .character > img {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .characters > .content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .characters > .content > .character {
+        padding: 32px;
+    }
+}
