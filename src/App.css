@@ -132,6 +132,53 @@
 }
 
 @media (max-width: 768px) {
+    .presentation {
+        background-size: 190%;
+    }
+
+    .title {
+        gap: 16px;
+    }
+
+    .logo {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .logo > .icon {
+        width: 64px;
+    }
+
+    .logo > .text {
+        width: 170px;
+    }
+
+    .presentation > .content {
+        gap: 24px;
+        padding: 32px 0 48px 0;
+    }
+
+    .presentation > .content > .actions > .trailer {
+        font-size: var(--font-size-m);
+    }
+
+    .playIcon {
+        width: 16px;
+    }
+
+    .presentation > .content > .actions > .coming-soon {
+        font-size: var(--font-size-s);
+    }
+
+    .story {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .characters {
+        background: linear-gradient(to bottom, #000 40%, #043a40 100%);
+    }
+
     .characters > .content {
         flex-direction: column;
         justify-content: center;
